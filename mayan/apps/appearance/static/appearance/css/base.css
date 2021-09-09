@@ -394,7 +394,7 @@ a i {
 }
 
 .btn-danger.btn-outline {
-    color: #d9534f;
+    color: #000000;
 }
 
 .btn-default.btn-outline:hover,
@@ -648,4 +648,15 @@ a i {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    color: black;
+}
+
+.btn-danger {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+a {
+    color: black;
 }

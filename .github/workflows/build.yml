@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build docker image
-      run: make dockerfile/docker-build
+      run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
     - name: SonarCloud Scan
